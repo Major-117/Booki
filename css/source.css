@@ -1,0 +1,1083 @@
+ /* Header*/
+
+.filtres
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.champ-cara::placeholder
+{
+	opacity: 1;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+html
+{
+	overflow-x: hidden;
+}
+
+body
+{
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+}
+
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header ul li
+{
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-top: 35px;
+	border-top: 2px solid transparent;
+	width: 100%;
+}
+
+
+header ul li:hover
+{
+	border-top: #0065fc solid 2px;
+	margin-top: 0;
+}
+
+header ul li:hover a
+{
+	color: #0065fc;
+}
+
+nav ul
+{
+	margin-bottom: 30px;
+}
+
+
+.Heber-Acti
+{
+	display: flex;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+	margin-right: 30px;
+}
+
+.Heber-Acti a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.heber
+{
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.logo
+{
+	width: 100px;
+	max-height:	45px;
+}
+
+footer
+{
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: space-around;
+	justify-content: flex-start;
+	gap: 15%;
+	width: 105%;
+	margin-left: -2.5%;
+	padding-left: 2.5%;
+	box-sizing: border-box;
+}
+
+footer li:hover
+{
+	text-decoration: underline;
+}
+
+.euro
+{
+	font-weight: bold;
+}
+
+.ul_propos
+{
+	list-style: none;
+	padding: 0;
+
+}
+
+.ul_propos a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.ul_heber
+{
+	list-style: none;
+	padding: 0;
+}
+
+.ul_heber a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.ul_assi
+{
+	list-style: none;
+	padding: 0;
+
+}
+
+.ul_assi a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.Etoile-bleu
+{
+	color: #0065fc;
+}
+
+.Etoile-gris
+{
+	color: #d9d9d9;
+}
+
+
+#icon-filtre
+{
+	color: #0065fc;
+}
+
+.champ-cara
+{
+	border-top: solid #f2f2f2 1px;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid #f2f2f2 1px;
+	height: 45px;
+}
+
+.bouton-recherche, #loupe
+{
+	background-color: #0065fc;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+	border-radius: 0 16px 16px 0 ;
+	padding: 16px ;
+	font-weight: bold;
+	-webkit-border-radius: 0 16px 16px 0 ;
+	-moz-border-radius: 0 16px 16px 0 ;
+	-ms-border-radius: 0 16px 16px 0 ;
+	-o-border-radius: 0 16px 16px 0 ;
+	color: white;
+	margin-left: -4px;
+	border-bottom: 1px solid #0065fc;
+	cursor: pointer;
+}
+
+
+#loupe
+{
+	display: none;
+}
+
+
+#Loca
+{
+	background-color: #F2F2F2;
+	border-radius: 16px 0 0 16px;
+	padding: 16px 20px;
+	text-align: center;
+	-webkit-border-radius: 16px 0 0 16px;
+	-moz-border-radius: 16px 0 0 16px;
+	-ms-border-radius: 16px 0 0 16px;
+	-o-border-radius: 16px 0 0 16px;
+	margin-right: -5px;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.text-recherche
+{
+	color: white;
+}
+
+.carte-hebergement
+{
+	width: 30%;
+	background-color: white;
+	border-radius: 16px 16px 16px 16px ;
+	padding: 5px;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+	-webkit-border-radius: 16px 16px 16px 16px ;
+	-moz-border-radius: 16px 16px 16px 16px ;
+	-ms-border-radius: 16px 16px 16px 16px ;
+	-o-border-radius: 16px 16px 16px 16px ;
+}
+
+.carte-hebergement img
+{
+ 	width: 100%;
+ 	height: 110px;
+ 	border-radius: 16px 16px 0 0 ;
+ 	object-fit: cover;
+ 	-webkit-border-radius: 16px 16px 0 0 ;
+ 	-moz-border-radius: 16px 16px 0 0 ;
+ 	-ms-border-radius: 16px 16px 0 0 ;
+ 	-o-border-radius: 16px 16px 0 0 ;
+}
+
+.Hebergements
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-right: 4%;
+	margin-left: 4%;
+	grid-row-gap: 32px;
+
+}
+
+.carte-hebergement a
+{
+	color: black;
+	text-decoration: none;
+	background-color: white;
+
+}
+
+
+.font-Hebergements
+{
+	background-color: #f2f2f2;
+	border-radius: 16px 16px 16px;
+	padding: 0;
+	width: 65%;
+	-webkit-border-radius: 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px;
+	-ms-border-radius: 16px 16px 16px;
+	-o-border-radius: 16px 16px 16px;
+}
+
+
+.carte-populaires
+{
+	width: 80%;
+	height: 125px;
+	background-color:white;
+	border-radius: 16px 16px 16px 16px ;
+	padding: 4px  ;
+	-webkit-border-radius: 16px 16px 16px 16px ;
+	-moz-border-radius: 16px 16px 16px 16px ;
+	-ms-border-radius: 16px 16px 16px 16px ;
+	-o-border-radius: 16px 16px 16px 16px ;
+	margin-left: 8%;
+	display: flex;
+	margin-top: 10%;
+	font-size: 16px;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+}
+
+
+.carte-populaires img
+{
+ 	min-width: 40%;
+ 	width: 30%;
+ 	height: 124px;
+ 	border-radius: 16px 0 0 16px ;
+ 	-webkit-border-radius: 16px 0 0 16px ;
+ 	-moz-border-radius: 16px 0 0 16px ;
+ 	-ms-border-radius: 16px 0 0 16px ;
+ 	-o-border-radius: 16px 0 0 16px ;
+ 	object-fit: cover;
+}
+
+.carte-populaires a
+{
+	color: black;
+	text-decoration: none;
+	margin-left: 5%;
+	font-size: 80%;
+	justify-content: space-evenly;
+}
+
+
+.font-populairs
+{
+	background-color: #f2f2f2;
+	border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-ms-border-radius: 16px 16px 16px 16px;
+	-o-border-radius: 16px 16px 16px 16px;
+	width: 31%;
+	height: 570px;
+}
+
+
+.aside
+{
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.titre-populaires
+{
+	margin-left: 8%;
+	font-size: 20px;
+	margin-bottom: -11px;
+
+}
+
+.titre-marseille
+{
+	margin-left: 4%;
+	margin-bottom: 3%;
+	font-size: 20px;
+}
+
+.trouver
+{
+	font-size: larger;
+	margin-right: 20px;
+}
+
+#graph
+{
+	float: right;
+	font-size: 100%;
+	margin-right: 40px;
+}
+
+.carte-hebergement p
+{
+	margin: 0;
+	font-size: 17px;
+	margin-left: 10px;
+	margin-bottom: 3px;
+}
+
+.carte-hebergement h3
+{
+	margin: 0;
+	margin-top: 5px;
+	font-size: 17px;
+	margin-left: 10px;
+}
+
+.carte-populaires p
+{
+	margin: 0;
+	font-size: 100%;
+	margin-bottom: 11px;
+	margin-top: 8px;
+
+
+}
+
+.carte-populaires h3
+{
+	margin: 0;
+	margin-top: 10px;
+}
+
+
+.carte-populaires .Etoile-bleu
+{
+	margin-top: 30px;
+}
+
+.afficher-plus
+{
+	margin-left: 33px;
+	margin-top: 5%;
+}
+
+.filtre
+{
+	align-items: center;
+	display: flex;
+	border-radius: 48px;
+	border: 2px solid #d9d9d9 ;
+	-webkit-border-radius: 48px;
+	-moz-border-radius: 48px;
+	-ms-border-radius: 48px;
+	-o-border-radius: 48px;
+	max-height: 39px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.filtre i
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 42px;
+	width: 42px;
+	background-color: #deebff;
+	border-radius: 48px;
+	-webkit-border-radius: 48px;
+	-moz-border-radius: 48px;
+	-ms-border-radius: 48px;
+	-o-border-radius: 48px;
+	color: #0065fc;
+	margin-left: -2.4px;
+}
+
+.filtre:hover
+{
+	background-color: #deebff;
+}
+
+.filtre:hover i
+{
+	background: white;
+}
+
+.filtre p
+{
+	padding: 15px 15px 15px 10px;
+	font-weight: bold;
+}
+
+.titre-filtre
+{
+	font-size: 20px;
+}
+
+.carte-hebergement:hover
+{
+ transform:scale(1.1);
+ -webkit-transform:scale(1.1);
+ -moz-transform:scale(1.1);
+ -ms-transform:scale(1.1);
+ -o-transform:scale(1.1);
+}
+
+.carte-populaires:hover
+{
+ transform:scale(1.1);
+ -webkit-transform:scale(1.1);
+ -moz-transform:scale(1.1);
+ -ms-transform:scale(1.1);
+ -o-transform:scale(1.1);
+}
+
+.Activité:hover
+{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+
+
+
+.Categorie-filtre
+{
+	display: flex;
+	margin-top: 30px;
+}
+
+
+.port img
+{
+
+	object-fit: cover;
+
+}
+
+.fort img
+{
+
+	object-fit: cover;
+}
+
+.îles img
+{
+
+	object-fit: cover;
+	object-position: center;
+}
+
+.Parc img
+{
+	object-fit: cover;
+}
+
+.Activité img
+{
+	flex:1;
+	min-height: 0;
+	width: 100%;
+	border-radius: 16px 16px 0 0  ;
+	-webkit-border-radius: 16px 16px 0 0  ;
+	-moz-border-radius: 16px 16px 0 0  ;
+	-ms-border-radius: 16px 16px 0 0  ;
+	-o-border-radius: 16px 16px 0 0  ;
+}
+
+.Activité
+{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 25px ;
+	-webkit-border-radius: 25px ;
+	-moz-border-radius: 25px ;
+	-ms-border-radius: 25px ;
+	-o-border-radius: 25px ;
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.120);
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.120);
+}
+
+
+.info
+{
+	font-size: 12px;
+	padding: 4px 8px;
+	border-radius: 32px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	-ms-border-radius: 32px;
+	-o-border-radius: 32px;
+	border: solid 2px #d9d9d9;
+}
+
+.iconinfo i
+{
+	color: #0065fc;
+	margin-right: 10px;
+}
+
+.act
+{
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.act > .Activité, .act > .doubleActivité
+{
+	width: 23%;
+	height: 82%;
+}
+
+.Activité h1
+{
+	font-size: 16px;
+	padding-left: 20px;
+
+}
+
+.doubleActivité
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.fort
+{
+	height: 53%;
+}
+
+.îles
+{
+	height:  38%;
+}
+
+.Dame
+{
+	height: 45%;
+}
+
+.champ
+{
+	height: 46%;
+}
+
+.iconinfo
+{
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.Activités
+{
+	margin-top: 55px;
+}
+
+footer li
+{
+	margin-bottom: 15px;
+}
+
+
+@media all and (max-width: 767px)
+{
+	.logo
+	{
+		height: 250px;
+	}
+
+	.act
+	{
+		flex-direction: column;
+		height: auto;
+	}
+
+	.carte-hebergement .Etoile-bleu
+	{
+		color: #0065fc;
+		font-size: 13px;
+	}
+
+
+	.filtres
+	{
+		justify-content: unset;
+	}
+
+	.act > .Activité, .act > .doubleActivité
+	{
+		width: 90%;
+		margin: auto;
+	}
+
+
+	.act > .Activité, .doubleActivité > .Activité
+	{
+		height: 200px;
+		margin-bottom: 30px;
+	}
+
+	.Activités h2
+	{
+		margin-left: 20px;
+		margin-bottom: 30px;
+		margin-right: unset;
+	}
+
+	.Heber-Acti
+	{
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.champ-cara::placeholder
+	{
+		opacity: 1;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.filtres
+	{
+		display: flex;
+
+	}
+
+	.Categorie-filtre
+	{
+		flex-wrap: wrap;
+		margin-right: 30px;
+		margin-top: 15px;
+	}
+
+	.Categorie-filtre h2
+	{
+		margin-left: 20px;
+	}
+
+
+
+	.iconinfo i
+	{
+		margin-left: 20px;
+		float: left;
+		margin-right: 18px;
+	}
+
+	.iconinfo
+	{
+		padding-right: 20px;
+	}
+
+	.aside
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+	.font-Hebergements
+	{
+		width: 100%;
+		background-color: transparent;
+		margin-top: 15px;
+	}
+
+	.font-Hebergements h2
+	{
+		margin-bottom: 20px;
+	}
+
+	.font-populairs
+	{
+		width: 100%;
+		height: auto;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+		padding-bottom: 40px;
+		padding-top: 30px;
+	}
+
+
+	.font-populairs h2
+	{
+	   margin-bottom: -20px;
+
+	}
+
+	.Hebergements
+	{
+		display: flex;
+		flex-direction: column;
+		margin-left: 20px;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	footer li
+	{
+		margin-left: 33px;
+	}
+
+	footer h2
+	{
+		margin-left: 33px;
+	}
+
+	.filtres
+	{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.filtre
+	{
+		margin-bottom: 15px;
+	}
+
+	.Activité img
+	{
+		object-fit: cover ;
+
+	}
+
+	header
+	{
+		display: block;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+	header ul
+	{
+		justify-content: center;
+		justify-content: space-evenly ;
+	}
+
+	.afficher-plus
+	{
+		margin-left: 20px;
+		margin-bottom: -10px;
+		margin-top: 10%;
+	}
+
+
+	header ul li
+	{
+		padding-top: 20px;
+		border-top: none;
+		width: 50%;
+		text-align: center;
+	}
+
+	header ul li:hover
+	{
+		border-top: none;
+		margin-bottom: 0;
+	}
+
+	header ul li
+	{
+		border-bottom: #f2f2f2 2px solid;
+		padding-bottom: 10px;
+	}
+
+	header ul li:hover
+	{
+		border-bottom: #0065fc 2px solid;
+	}
+
+	.Recherche
+	{
+		text-align: center;
+		margin-left: -15px;
+
+	}
+
+	.bouton-recherche
+	{
+		display: none;
+	}
+
+	#loupe
+	{
+		display: inline;
+		border-radius: 1.05rem;
+		-webkit-border-radius: 1.05rem;
+		-moz-border-radius: 1.05rem;
+		-ms-border-radius: 1.05rem;
+		-o-border-radius: 1.05rem;
+		padding-left: 15px;
+		padding-right: 15px;
+		align-items: center;
+		margin-left: -20px;
+		border-bottom: 1px solid #0065fc;
+	}
+
+	.champ-cara
+	{
+		width: 55%;
+	}
+
+	.comm
+	{
+		margin-left: 20px;
+		margin-bottom: 35px;
+	}
+
+	.trouver
+	{
+		display: flex;
+		text-align: center;
+		margin-right:100px;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+	.heber
+	{
+		margin-right: 0%;
+		text-align: unset;
+	}
+
+	.carte-hebergement
+	{
+		width: auto;
+	}
+
+	.carte-populaires
+	{
+		width: unset;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+
+
+}
+
+@media all and (min-width: 768px) and (max-width: 991px)
+{
+	.aside
+	{
+		display: flex;
+		flex-wrap: wrap;
+		grid-gap: 20px;
+	}
+
+	header
+	{
+		align-items: center;
+	}
+
+	.font-Hebergements
+	{
+		width: 100%;
+	}
+
+	.font-Hebergements h2
+	{
+		text-align: center;
+	}
+
+	.font-populairs
+	{
+		width: 100%;
+		height: 270px;
+	}
+
+	.font-populairs h2
+	{
+		text-align: center;
+	}
+
+	.populaires
+	{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.carte-populaires
+	{
+		margin-left: 5px;
+		margin-top: 40px;
+		margin-right: 5px;
+		max-width: 100%;
+	}
+
+	.Activité
+	{
+		display: flex;
+		justify-content: space-around;
+		cursor: pointer;
+	}
+
+	.Activités
+	{
+		flex-wrap: wrap;
+
+	}
+
+	.Activités h2
+	{
+		text-align: center;
+	}
+
+	footer
+	{
+		background-color: #f2f2f2;
+		display: flex;
+		justify-content: space-around;
+		gap: unset;
+		box-sizing: border-box;
+	}
+
+	.act > .Activité, .act > .doubleActivité
+	{
+		width: 40%;
+		height: 450px;
+		gap: 1rem;
+	}
+
+	.act
+	{
+		flex-wrap: wrap;
+		height: unset;
+		justify-content: space-around;
+		gap: 20px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	.comm
+	{
+		margin-right: 20px;
+	}
+
+	.trouver
+	{
+		margin-right: 20px;
+	}
+
+	.Recherche
+	{
+		margin-right: 20px;
+	}
+
+	.iconinfo
+	{
+		margin-right: 20px;
+		display: flex;
+		align-items: center;
+	}
+
+	.iconinfo i
+	{
+		margin-right: 10px;
+	}
+
+	nav ul
+	{
+		margin-bottom: 30px;
+	}
+
+	.heber
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+}
+
+
+@media all and (min-width:992px) /*Desktop*/
+{
+	.Heber-Acti
+	{
+		margin-bottom: 30px;
+	}
+
+	body
+	{
+		max-width: 1440px;
+	}
+
+
+
+}
+
+
